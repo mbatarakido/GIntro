@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student registration form</title>
+</head>
+
+<body>  
+    <form action="student-response.jsp">
+    	Firstname : <input type="text" name="firstname"/>
+    	Lastname : <input type="text" name="firstname"/>
+    	<input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

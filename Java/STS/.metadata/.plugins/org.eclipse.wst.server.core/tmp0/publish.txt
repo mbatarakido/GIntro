@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Feb 14 00:28:10 EAT 2025
+org.eclipse.jst.jee.server\:jspdemo1=C\:\\Program Files\\Apache Software Foundation\\Tomcat 11.0\\wtpwebapps\\jspdemo1
+org.eclipse.jst.jee.server\:tagDemo=C\:\\Program Files\\Apache Software Foundation\\Tomcat 11.0\\wtpwebapps\\tagDemo

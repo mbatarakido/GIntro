@@ -1,0 +1,7 @@
+package com.mbata;
+
+public class Student {
+	String firstname;
+	String lastname;
+	boolean goldCustomer;
+}

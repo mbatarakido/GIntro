@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Personalize the Site</title>
+</head>
+<body>
+<form action="helloworld.jsp">
+    	Select favorite Programming Language: 
+    		<input type="radio" name="pro_lang" value="Java">Java
+    		<input type="radio" name="pro_lang" value="PHP">PHP
+    		<input type="radio" name="pro_lang" value="Python">Python
+    		<input type="radio" name="pro_lang" value="C#">C#
+    		<input type="radio" name="pro_lang" value="Kotlin">Kotlin
+    		<input type="radio" name="pro_lang" value="JavaScript">JS<br><br>
+    	<input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

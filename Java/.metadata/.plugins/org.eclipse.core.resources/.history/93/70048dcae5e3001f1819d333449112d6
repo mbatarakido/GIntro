@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Training Portal</title>
+</head>
+<body>
+
+
+
+
+    <!-- read the fav_lang Cookie -->
+    <%
+		String favlang = "Java";
+    	Cookie[] cookies = request.getCookies();
+    	if(cookies != null){
+    		for(Cookie tempCookie: cookies){
+    			if("myapp.fav_lang".equals(tempCookie.getName())){
+    				favlang = tempCookie.getValue();
+    				break;
+    			}
+    		}
+    	}
+	%>
+	<br><br>
+</body>
+</html>

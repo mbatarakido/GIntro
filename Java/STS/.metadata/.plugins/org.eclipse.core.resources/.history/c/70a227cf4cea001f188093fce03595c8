@@ -1,0 +1,23 @@
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+ <%@ page import="java.util.*,com.mbata.Student" %>
+ <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL Tags - Student</title>
+</head>
+<%
+	List<String> data = new ArrayList<>();
+
+	data.add(new Student("John","Simpson",false));
+	data.add(new Student("King","Sly",false));
+	data.add(new Student("Mary","Anne",false));
+	data.add(new Student("Wesley","Snipes",false));
+	data.add(new Student("Nancy","Greene",false));
+%>
+<body>
+
+</body>
+</html>

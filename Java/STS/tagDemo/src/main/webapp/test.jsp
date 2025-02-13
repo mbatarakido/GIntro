@@ -1,0 +1,24 @@
+ <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSTL Tags</title>
+</head>
+
+<%
+	String[] cities = {"Nairobi", "Arusha", "Kampala", "Addis Ababa"};
+	pageContext.setAttribute("africanCities", cities);
+%>
+<body>
+<c:set var="stuff" value="<%=new java.util.Date()%>"/>
+
+Time on the server is ${stuff}<br><br>
+
+<c:forEach var="tempCity" items="${africanCities }">
+	${tempCity}<br><br>
+</c:forEach>
+
+</body>
+</html>

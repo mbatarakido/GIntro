@@ -1,0 +1,72 @@
+<%@ page import="com.mbata.Jspdemo" %>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>JSP</title>
+</head>
+
+<body>
+    <jsp:include page="my-header.html"></jsp:include>
+    Request user agent: <%=request.getHeader("User-Agent")%>
+    <br><br>
+   	Request language: <%=request.getLocale()%>
+    <br><br>
+    Today's Date is <%= new java.util.Date()%>!!!
+    <br><br>
+    <%
+    	for(int i=1; i<=10; i++){
+    		for(int j=1; j<=i; j++)
+    			out.print("*");
+    		out.println("<br>");
+    	}
+    %>
+    <br><br>
+    <%!
+    String makeItLower(String data){
+    	return data.toLowerCase();
+    }
+    %>
+    Lower Case JAVA SERVER PAGES is <%=makeItLower("JAVA SERVER PAGES")%>
+    <br><br>
+    Have some fun: <%=Jspdemo.toUpper("fun fun fun!!!") %>
+
+    
+    <br><br>
+    <!-- Display Student Info -->
+    Student FirstName : <%=request.getParameter("firstname") %> ${param.firstname}<br><br>
+    Student LastName : <%=request.getParameter("lastname") %> ${param.lastname}<br><br>
+    Origin Country: <%=request.getParameter("country")%> ${param.country}<br><br>
+    Programming Language: <%=request.getParameter("pro_lang") %> ${param.pro_lang}<br><br>
+    
+    <!-- Set a Cookie -->
+    <%
+    	String pro_lang = request.getParameter("pro_lang");
+    	
+    	Cookie theCookie = new Cookie("myapp.fav_lang",pro_lang);
+    	
+    	theCookie.setMaxAge(60*60*24*5);
+    	theCookie.setComment("Favorite Programming language");
+    	
+    	response.addCookie(theCookie);
+    %>
+    <br><br>
+    
+    <!-- read the fav_lang Cookie -->
+    <!-- List of Favorite Foods -->
+    Favorite Foods:
+    	<%
+    		String[] foods = request.getParameterValues("fav_food");
+    		for(int i=0; i<foods.length; i++){
+    			out.println("<li>"+foods[i]+"</li>");
+    		}
+    	%>
+    <br>
+    
+    
+    <br>
+    <jsp:include page="my-footer.jsp"></jsp:include>
+</body>
+
+</html>

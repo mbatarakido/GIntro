@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Personalize the Homepage</title>
+</head>
+	<!-- Set a Cookie -->
+    <%
+    	String fav_lang = request.getParameter("pro_lang");
+    	
+    	Cookie theCookie = new Cookie("myapp.fav_lang",fav_lang);
+    	
+    	theCookie.setMaxAge(60*60*24*5);
+    	theCookie.setComment("Favorite Programming language");
+    	
+    	response.addCookie(theCookie);
+    %>
+    <br><br>
+<body>
+	Thanks! We've set your favorite programming language to: ${param.pro_lang}
+	<br><br>
+	<a href="cookies-homepage.jsp">Return to Homepage!</a>
+</body>
+</html>

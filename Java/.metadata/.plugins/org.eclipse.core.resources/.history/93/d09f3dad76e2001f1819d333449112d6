@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student registration form</title>
+</head>
+
+<body>  
+    <form action="helloworld.jsp">
+    	Firstname : <input type="text" name="firstname"/><br>
+    	Lastname : <input type="text" name="lastname"/><br>
+    	<select name="country">
+    		<option>Kenya</option>
+    		<option>Uganda</option>
+    		<option>Tanzania</option>
+    		<option>Rwanda</option>
+    		<option>Ethiopia</option>
+    	</select>
+    	<input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

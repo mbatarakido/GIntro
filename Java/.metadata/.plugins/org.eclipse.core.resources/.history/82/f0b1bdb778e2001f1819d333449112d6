@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student registration form</title>
+</head>
+
+<body>  
+    <form action="helloworld.jsp">
+    	First Name : <input type="text" name="firstname"/><br><br>
+    	Last Name : <input type="text" name="lastname"/><br><br>
+    	Country : <select name="country">
+    		<option>Kenya</option>
+    		<option>Uganda</option>
+    		<option>Tanzania</option>
+    		<option>Rwanda</option>
+    		<option>Ethiopia</option>
+    	</select><br><br>
+    	Programming Language: 
+    		<input type="radio" name="pro_lang" value="Java">Java
+    		<input type="radio" name="pro_lang" value="PHP">PHP
+    		<input type="radio" name="pro_lang" value="Python">Python
+    		<input type="radio" name="pro_lang" value="C#">C#
+    		<input type="radio" name="pro_lang" value="Kotlin">Kotlin
+    		<input type="radio" name="pro_lang" value="JavaScript">JS<br><br>
+    	Favorite Foods: 
+    		<input type="checkbox" name="fav_food" value="Fish">Java
+    		<input type="checkbox" name="fav_food" value="chips">PHP
+    		<input type="checkbox" name="fav_food" value="Chicken">Python
+    		<input type="checkbox" name="fav_food" value="Rice">C#
+    		<input type="checkbox" name="fav_food" value="Tea">Kotlin
+    		<input type="checkbox" name="fav_food" value="Coffee">JS<br><br>
+    	<input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

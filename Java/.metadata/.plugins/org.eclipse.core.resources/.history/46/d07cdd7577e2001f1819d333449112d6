@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student registration form</title>
+</head>
+
+<body>  
+    <form action="helloworld.jsp">
+    	Firstname : <input type="text" name="firstname"/><br>
+    	Lastname : <input type="text" name="lastname"/><br>
+    	Country : <select name="country">
+    		<option>Kenya</option>
+    		<option>Uganda</option>
+    		<option>Tanzania</option>
+    		<option>Rwanda</option>
+    		<option>Ethiopia</option>
+    	</select><br>
+    	Programming Language: 
+    		<input type="raido" name="pro_lang" value="Java">Java
+    		<input type="raido" name="pro_lang" value="PHP">Java
+    		<input type="raido" name="pro_lang" value="Python">Java
+    		<input type="raido" name="pro_lang" value="C#">Java
+    		<input type="raido" name="pro_lang" value="Kotlin">Java
+    		<input type="raido" name="pro_lang" value="JavaScript">Java
+    	<input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

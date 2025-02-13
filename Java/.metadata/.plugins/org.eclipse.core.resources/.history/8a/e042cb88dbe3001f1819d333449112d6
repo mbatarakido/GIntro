@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Session Management</title>
+</head>
+<body>
+	<!-- Create the html form -->
+	<form action="todo-demo.jsp">
+		Enter Item: <input type="text" name="item">
+					<input type="submit" value="Submit">
+	</form>
+	Item Entered: <%=request.getParameter("item") %>
+	
+	<br>
+	<!-- Add items to To-Do list -->
+	<%
+		List<String> items = (List<String>)session.getAttribute("todoList");
+	
+		if(items == null){
+			items = new ArrayList<String>();
+			session.setAttribute("todoList", items);
+		}
+		
+		String item = request.getParameter("item");
+		if(item != null){
+			items.add("item");
+		}
+	%>
+	<br>
+	<!-- Display all To-Do list items using session -->
+	
+	<br>
+</body>
+</html>
