@@ -1,0 +1,69 @@
+Cisco Packet Tryser is a Cisco network simulator that can be used not only in education but also can simulate simple computer networks. This tool is developed by Cisco Systems Inc. and is provided free of charge for use by Cisco Computer Professors, Students, and Graduates. Packet Tracer is also a tool for learning the principles of the network as well as the development of specific Cisco technology skills for students and teachers.
+Cisco Packet Tracer Key Features:
+
+- Easy and convenient installation
+- Free of charge
+- Intuitive, simple and powerful user interface
+- Simulation and network configuration
+- Ability to use unlimited number of networks
+- Student Assistant software and hardware in network classes
+
+Cisco Packet Tracer is a comprehensive, networking technology teaching and learning program that offers a unique combination of realistic simulation and visualization experiences, assessment and activity authoring capabilities, and opportunities for multiuser collaboration and competition. Innovative features of Packet Tracer will help students and teachers collaborate, solve problems, and learn concepts in an engaging and dynamic social environment. Some of the benefits of Packet Tracer are as follows:
+● Provides a realistic simulation and visualization learning environment that supplements classroom equipment, including the ability to see internal processes in real-time that are normally hidden on real devices
+Enables multiuser, real-time collaboration and competition for dynamic learning
+● Enables authoring and localization of structured learning activities such as labs, demonstrations, quizzes, exams, and games
+● Empowers students to explore concepts, conduct experiments, and test their understanding of network building
+● Allows students and teachers to design, build, configure, and troubleshoot complex networks using virtual equipment
+● Supports a variety of teaching and learning opportunities such as lectures, group and individual labs, homework, games, and competitions
+● Supports feature expansion through external applications using an API to enhance the functionality of Cisco Packet Tracer in areas such as curriculum and assessment delivery, games, accessibility, and interfacing with real equipment.
+What’s new in Cisco Packet Tracer 7.2
+
+The new features of CPT 7.2 include the following:
+PPPOE support
+802.1x
+Answer tree filter
+Real TCP server
+Real Websocket
+Real-time activity grading
+Additional IOS security features
+Protocol improvements (see below)
+ASA 5506 firewall
+Meraki server
+Meraki security appliance
+Home router
+Here are some of the bugs in Cisco Packet Tracer 7.1.1 have been fixed in 7.2.
+Packet Tracer crash when booting C1841 ISR router from ROMMON mode (boot flash:c1841-advipservicesk9-mz.124-15.T1.bin)
+Packet Tracer crash when configuring DHCP on WLC-PT wireless controller
+Unable to use ip http server command on Cisco ISR 1941 router
+LLDP protocol error with LLDP neighbors not showing
+Port-channel interfaces become unassociated from the channel-groups on a router device when a saved file is reloaded after Packet Tracer restart
+After entering the command “show spanning-tree details” on a switch with a spanning-tree instance, program crashes
+Program crashes when placing fiber adaptor GLC-LH-SMD in ISR 2811 router using mixed media adaptor
+System Requirements
+Microsoft Windows (7 / 8.1 / 10) or Linux Ubuntu (14.04 64-bits)
+At least Pentium 4 (2.5 GHz)
+A minimum of 2GB RAM (4GB recommended)
+700 MB of storage space
+A minimum screen resolution of 1024 x 768
+
+Download it here:
+
+
+
+64 Bit:
+Hidden Content 
+
+Google Drive: https://drive.google.com/file/d/1dZRrKYloNtVfMh47uUILrk7QW0d4kkCq/view 
+
+Mega: https://mega.nz/#!c4B1BSZT!7-dxm4XuhmKhpXqGYRPu9Er1BJZmdaTEqlRRr1VlocU 
+
+MediaFire: http://www.mediafire.com/file/8j8v9dn2ohbj65u/Packet+Tracer+7.2+for+Windows+64+bit.zip 
+32 Bit: 
+
+Hidden Content 
+
+Google Drive: https://drive.google.com/file/d/152M9pD5ye8BsI8uvtQwbXhsS1Pv0XlR6/view 
+
+Mega: https://mega.nz/#!h1ZhGAYb!8T3UihvpexRDpWIRJ2CFo_JGAN2G03ksuVnDyhzSZ-8 
+
+MediaFire: http://www.mediafire.com/file/5hb2dctv2x9nnj2/Packet+Tracer+7.2+for+Windows+32+bit.zip

@@ -1,0 +1,7 @@
+<%@page import="java.util.Date"%>
+<html>
+<body>
+<h3>The World of Java</h3>
+The time is <%= new Date() %>
+</body>
+</html>

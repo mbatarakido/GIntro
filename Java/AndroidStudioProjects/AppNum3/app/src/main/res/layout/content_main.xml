@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:text="Animal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:text="Cat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtLeopard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:text="Leopard"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtLion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:text="Lion"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtBird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:text="Bird"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

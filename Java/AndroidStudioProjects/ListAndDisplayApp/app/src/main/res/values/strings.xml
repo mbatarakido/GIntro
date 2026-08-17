@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">List And Display App</string>
+
+    <string-array name="items">
+        <item>Greatwall</item>
+        <item>ADEP Logo</item>
+        <item>Camel</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>$0.99</item>
+        <item>$1.99</item>
+        <item>$0.89</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>The Great Wall of China</item>
+        <item>The ADEP project Logo</item>
+        <item>The North-African Camel Tour</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<%@page import="java.util.Date"%>
+<html>
+<body>
+	<h3>The World of Java</h3>
+	
+	<%--JSP Expressions: Java expressions --%>
+	The time on the Server is: <%= new Date() %></br>
+	Uppercase Server Name: <%= new String("Apache Tomcat").toUpperCase() %></br>
+	Permutation Numbers: <%= 7*6*5*4*3*2*1 %>
+	
+	<%--JSP Scriplets: 1 to many lines of Java code --%>
+	<%
+	for(int i=0; i<10; i++){
+		out.println("</br>Java can be so much fun, YES? -> " + i);
+	}
+	%>
+	
+	<%--JSP Declarations: declare methods and call them from same JSP page --%>
+	<%!
+	String lowerCase(String data){
+		return data.toLowerCase();
+	}
+	%>
+	
+	Lowercase Server Name: <%lowerCase("Apache Tomcat") %>
+	
+</body>
+</html>

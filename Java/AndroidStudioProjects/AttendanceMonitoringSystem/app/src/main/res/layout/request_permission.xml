@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59655959"
+    android:orientation="vertical"
+    tools:context="com.example.attendance.RequestPermission">
+
+    <EditText
+        android:id="@+id/requestEditText"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        android:gravity="top"
+        android:hint="Enter your request here"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/sendRequestBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="#2196F3"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</LinearLayout>

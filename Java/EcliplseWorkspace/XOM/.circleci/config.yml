@@ -1,0 +1,17 @@
+version: 2
+machine:
+  java:
+    version: openjdk6
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk
+    steps:
+      - checkout
+      - run:
+          name: Tests
+          command: ant test
+          no_output_timeout: 40m
+      - run:
+          name: Integration tests
+          command: date

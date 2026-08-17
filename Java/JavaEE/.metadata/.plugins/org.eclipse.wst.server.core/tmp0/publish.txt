@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Apr 23 20:49:48 EAT 2024
+org.eclipse.jst.jee.server\:DemoApp=C\:\\Users\\Mbata\\Servers\\apache-tomcat-10.1.12\\wtpwebapps\\DemoApp
+org.eclipse.jst.jee.server\:JSPDemo=C\:\\Users\\Mbata\\Servers\\apache-tomcat-10.1.12\\wtpwebapps\\JSPDemo

@@ -1,0 +1,47 @@
+<html>
+											<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+											<body>
+											<table width="100%" border="0" cellpadding="4" cellspacing="0">
+											<tr>
+												<td><h2>How to find the IP address of a website or server</h2></td>
+											</tr>
+											<tr>
+												<td style="padding:10pt;"> <h1 dir="ltr"><span id="docs-internal-guid-661d01dd-1fb5-71c9-1b55-e1742d9f5c06">How to find the IP address of a website or server</span></h1>
+<p dir="ltr"><em>Overview<br /></em><em>This article explains three methods of finding the IP address of your server or website.</em></p>
+<p dir="ltr">All three of the following methods can help you locate the IP address of your server or website. However, in some cases, the IP address given in your Nexcess Welcome Email may not match the IP address given by a lookup service or ping command. This can result from a pending migration, the use of proxy services like CloudFlare, or other reasons.</p>
+<h3 dir="ltr">Check your Welcome Email</h3>
+<p dir="ltr">We provided your IP address in the Welcome Email you received when first enlisting our services. If you cannot locate this email, then consider one of the other options below or <a href="mailto:support@nexcess.net">contact our support team</a>.</p>
+<h3 dir="ltr">Use a lookup service</h3>
+<p dir="ltr">We host a <a href="https://www.nexcess.net/resources/tools/global-dns-checker/">global DNS checker on our website</a>. To identify your domain&rsquo;s IP address:</p>
+<ol>
+<li dir="ltr">
+<p dir="ltr">In the <strong>Domain</strong> field, enter your domain name.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">In the<strong> Record Type</strong> list, select <strong>A</strong>.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Click <strong>Lookup</strong>.  </p>
+</li>
+</ol>
+<h3 dir="ltr">Use the <span style="font-family: &#039;courier new&#039;, courier;">ping</span> command</h3>
+<p dir="ltr">If you know how to access your command line or terminal emulator, you can use the <span><strong>ping</strong> </span>command to identify your IP address.</p>
+<ol>
+<li dir="ltr">
+<p dir="ltr">At the prompt, type <span><strong>ping</strong></span>, press the spacebar, and then type the relevant domain name or the server hostname.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Press Enter.<br /><br /></p>
+</li>
+</ol>
+<p dir="ltr"><strong><em>For 24-hour assistance any day of the year, contact our support team <a href="mailto:support@nexcess.net">by email</a> or <a href="http://portal.nexcess.net/">through the Client Portal</a>.</em></strong></p> </td>
+											</tr>
+											<tr>
+												<td style="padding-left:10pt;"><em>Posted  - Fri, Feb 15, 2019 at 2:51 PM. </em></td>
+											</tr>
+											<tr>
+												<td bgcolor="#F4F4F4" style="padding:10pt;">Online URL: <a href="https://docs.nexcess.net/article/how-to-find-the-ip-address-of-a-website-or-server.html">https://docs.nexcess.net/article/how-to-find-the-ip-address-of-a-website-or-server.html</a></td>
+											</tr>
+											</table>
+											</body>
+											</html>

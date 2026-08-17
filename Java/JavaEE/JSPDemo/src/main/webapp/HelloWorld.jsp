@@ -1,0 +1,41 @@
+<%@page import="java.util.Date, atito.mbata.SampleClass" %>
+
+<html>
+<body>
+	<jsp:include page="my-header.html" />
+	<h3>The World of Java</h3>
+	
+	<%--Built-in JSP objects --%>
+	Request User Agent: <%=request.getHeaders("User-Agent") %></br>
+	Request Language: <%=request.getLocale() %></br>
+	Request Character Encoding: <%=request.getCharacterEncoding() %></br>
+	Request Auth Type: <%=request.getAuthType() %></br>
+	
+	<%--JSP Expressions: Java expressions --%>
+	The time on the Server is: <%= new Date() %></br>
+	Uppercase Server Name: <%= new String("Apache Tomcat Server").toUpperCase() %></br>
+	Permutation of 7: <%= 7*6*5*4*3*2*1 %>
+	
+	<%--JSP Scriplets: 1 to many lines of Java code --%>
+	<%
+	for(int i=0; i<10; i++){
+		out.println("</br>Java can be so much fun, YES? -> " + i);
+	}
+	%>
+	
+	<%--JSP Declarations: declare methods and call them from same JSP page --%>
+	<%!
+	String lowerCase(String data){
+		return data.toLowerCase();
+	}
+	%>
+	</br>
+	Lowercase Server Name: <%=lowerCase("APACHE TOMCAT SERVER") %>
+	
+	</br>
+	Lowercase Server Name: <%=SampleClass.makeItLower("NGINX SERVERSSS") %>
+	
+	<jsp:include page="my-footer.jsp" />
+	
+</body>
+</html>

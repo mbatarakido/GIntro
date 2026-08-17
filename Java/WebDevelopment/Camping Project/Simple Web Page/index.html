@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>JSON Example!!!</title>
+    </head>
+    <body>
+        <ul id="company"></ul>
+        <script type="text/javascript">
+            var company = 
+            [
+                {
+                    "name": "Oracle",
+                    "numberOfEmployee": "10000",
+                    "ceo": "Larry Ellison",
+                    "rating": 4.6,
+                    "isExpanding": true,
+                    "boardMembers": ["Nadella", "Harry", "Sylvia", "Patricia", "George"],
+                    "subCompanies": [
+                        {
+                            "name": "Java Oracle Community",
+                            "ceo": "Sylvia Brady",
+                            "numberOfStaff": 20,
+                            "operationIndependent": false
+                        },
+                        {
+                            "name": "Oracle Database Community",
+                            "ceo": "Grace Newman",
+                            "numberOfStaff": 45,
+                            "operationIndependent": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Google",
+                    "numberOfEmployee": "25000",
+                    "ceo": "Larry Page",
+                    "rating": "4.3"
+                }
+            ];
+
+            //company=JSON.stringify(company);
+            //console.log(JSON.parse(company)[0].subCompanies[1]);
+
+            
+            var output='';
+            for(var i=0; i<company.length; i++){
+                output += '<li>'+company[i].name+'</li>';
+                console.log(company[i].name);
+            }
+            document.getElementById('company').innerHTML=output;  
+        </script>
+    </body>
+</html>

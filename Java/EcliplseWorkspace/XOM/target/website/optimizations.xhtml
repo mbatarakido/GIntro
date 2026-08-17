@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>XOM Optimizations</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"/></head><body><div class="article"><div class="titlepage"><div><div><h2 class="title"><a id="d445e1"/>XOM Optimizations</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Elliotte</span> <span class="othername">Rusty</span> <span class="surname">Harold</span></h3></div></div><div><p class="copyright">Copyright © 2003 Elliotte Rusty Harold</p></div></div><hr/></div>
+  
+
+  
+  
+  
+  
+ <p>
+ Some lessons I learned by optimizing XOM.
+</p>
+
+  <p>
+    Lazy initializaiton is a good idea. XOM saves megabytes of memory
+    by only allocating data structures when and if necessary.
+   This is particularly true in the <code class="classname">Element</code> class where
+    each <code class="classname">Element</code> has references to 
+   a list of attributes and a lits of additional namespaces.
+  </p>
+
+  <p>
+    Don't accept the default capacity for ArrayList. This wastes a lot of space,
+    for no significant savings in time.
+  </p>
+
+  <p>
+    ArrayLists are faster than almost any other list data structure, including linked lists.
+    (To be honest, JDOM had already proven this.) Don't believe what your data structures
+    text books tell you about the O(n) insertion cost of arrays.
+    They don't know about System.arraycopy.
+  </p>
+
+
+  <p>
+    instanceof is ungodly expensive. I cut the time of one hot spot in half
+   by replacing an instanceof test with a length test on my data structure. 
+  </p>
+
+  <p>
+    String.equals is expensive. When testing for the empty string 
+    test whether the string has length 0 rather than using 
+    equals().  
+  </p>
+
+  <p>
+    As yet unknown: is it worth interning strings everywhere?
+    What would that save? What would it cost? How fast is String.intern()?  
+  </p>
+
+  <p>
+    Allegedly charAt() is expensive so I replaced it
+    with toCharArray() and direct array access.  
+    However,  it turns out toCharArray is almost equally expensive.
+  </p>
+
+  <p>
+    As yet unknown: would it make sense to use char arrays directly
+    to accumulate text into the text node instead of StringBuffers and strings?
+    Should I begin a new text node in characters and 
+    append char[]s directly to that Text node repeatedly   
+    without ever using a StringBuffer?
+    Perhaps storing a StringBuffer internally in Text instead of a String????
+Bu then I have to convert to the string on getValue, expensive????
+or cacheable????
+  </p>
+
+  <p>
+    Strings waste space (and char arrays are no better). 
+    If most of your text data is ASCII , then up to half the data 
+    in each String is empty. For XML documents, this is a <span style="color: red">&lt;strong&gt;big&lt;/strong&gt;</span>
+    problem. You can improve this by storing data in UTF-8 encoded byte arrays
+    instead. However, there's a performance trade-off here.
+    Right now in XOM, the conversion from Strings to UTF-8 bytes and back is the
+    second biggest hot spot, occupying 10-15% of execution time. I need to 
+    implement some form of strategy pattern so users can choose whether they need
+    to optimize time or space. 
+  </p>
+
+
+  <p>
+    So far, almost all the time is spent in building 
+    (including parsing and I/O). This is three orders of magnitude 
+    larger than the time spent manipulating documents in memory.
+    I am not sure if there are any use-cases which really suggest
+    further optimizing in-memory manipulation and navigation.
+    I have not yet explored the time issues with serialization.
+    That may be dur for otpimization as well, but I suspect it can't
+    be as bad as building. 
+  </p>
+
+
+</div></body></html>

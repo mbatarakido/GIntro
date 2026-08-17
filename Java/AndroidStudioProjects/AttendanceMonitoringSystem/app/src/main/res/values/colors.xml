@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="actionButtonBackground">#00796B</color>
+    <color name="loginButtonColor">#3F51B5</color>
+    <color name="reactionColor">#FF5722</color>
+    <color name="mark">#15D30F</color>
+</resources>

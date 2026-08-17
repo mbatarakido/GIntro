@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    grid-template-areas:
+        "h h h h"
+        "a a b b"
+        "f f f f"
+    ;
+}
+
+header {
+    grid-area: h;
+    background-color: #D0021B;
+}
+
+section#a {
+    grid-area: a;
+    background-color: #9013FE;
+}
+
+section#b {
+    grid-area: b;
+    background-color: #F8E71C;
+}
+
+footer {
+    grid-area: f;
+    background-color: #50E3C2;
+}
