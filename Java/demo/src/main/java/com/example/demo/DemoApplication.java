@@ -18,7 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		// new BeanFactory object definition
+		// new BeanFactory object definition, maybe not the latest way of defining a BeanFactory class
 		BeanFactory factory = new BeanFactory() {
 			@Override
 			public Object getBean(String name) throws BeansException {
