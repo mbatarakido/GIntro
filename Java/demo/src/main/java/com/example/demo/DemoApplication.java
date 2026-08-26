@@ -12,7 +12,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 
-		BeanFactory factory = new XmlBeanDefinitionReader(new ClassPathResource("D:\\Developer\\Java\\demo\\pom.xml"));
+		BeanFactory factory = new XmlBeanDefinitionReader(new ClassPathResource(""));
 		MessageWriter messageWriter = (MessageWriter) factory.getBean("messageWriter", MessageWriter.class);
 		IMessageProducer messageProducer = (IMessageProducer) factory.getBean("htmlMessageProducer", IMessageProducer.class);
 
