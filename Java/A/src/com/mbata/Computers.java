@@ -5,7 +5,7 @@ class Computers{
         for(int count = 0; count <= 5; count++) {
             System.out.println("in Computers run Class");
             try {
-                Thread.sleep(5);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -13,5 +13,8 @@ class Computers{
     }
 }
 class Mobile extends Computers implements Runnable{
-
+    @Override
+    public void run() {
+        super.run();
+    }
 }
