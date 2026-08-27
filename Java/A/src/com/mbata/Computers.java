@@ -5,7 +5,7 @@ class Computers{
         for(int count = 0; count <= 5; count++) {
             System.out.println("in Computers run Class");
             try {
-                Thread.sleep(2);
+                Thread.sleep(5);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

@@ -10,9 +10,9 @@ public class Main{
         LocalTime time = LocalTime.now();
         LocalDateTime dateTime = LocalDateTime.now();
         ZoneId zone = ZoneId.systemDefault();
-        Period p = Period.between(LocalDate.of(1994,04,03),LocalDate.now());
+        Period p = Period.between(LocalDate.of(2026,04,03),LocalDate.now());
 
-        System.out.println(p.toString());
+        System.out.println(p.toTotalMonths()+" \n"+zone+" \n"+date+" \n"+time+" \n"+dateTime);
 
 
     }
