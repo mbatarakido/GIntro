@@ -12,3 +12,10 @@ s = "Python Automation workflow journey"
 l=s.split()
 print(l)
 print(type(l))
+
+
+l=["A","B","C","D","E"]
+print(l)
+x=len(l)
+for i in range(x):
+    print(l[i], "is available at positive index: ",i," and at negative index: ",i-x)
