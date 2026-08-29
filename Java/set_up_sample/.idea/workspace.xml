@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1976dec1-d5da-45a6-82df-fed5b32bae2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CPrograms/Func" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/Func" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/GuessTheNum" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/GuessTheNum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/Loops" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/Loops" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/Practice" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/Practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/PreprocessorDirectives" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/PreprocessorDirectives" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/StringManipulation" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/StringManipulation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/Sum" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/Sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/TimeDisplay" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/TimeDisplay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/funcRevison" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/funcRevison" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/reminder" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/reminder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/sample" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/sample2" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/sample2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/sample3" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/sample3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/sample4" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/sample4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/structRevision" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/structRevision" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/tables" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/tables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/tanaka" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/tanaka" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPrograms/tanaka2" beforeDir="false" afterPath="$PROJECT_DIR$/../CPrograms/tanaka2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/AddFunction" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/AddFunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/Functions" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/Functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/Operators" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/Operators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/OutputFile" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/OutputFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/Pointers" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/Pointers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/ReadingFiles" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/ReadingFiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/SimpleCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/SimpleCalculator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/StringObject" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/StringObject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/Tables" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/Tables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/Test" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/Test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/UnevenArguments" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/UnevenArguments" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/WriteReadFiles" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/WriteReadFiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/booleans" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/booleans" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/dynamicArrays" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/dynamicArrays" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/getlineUse" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/getlineUse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/myClass001" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/myClass001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPrograms/myProg" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPrograms/myProg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mbatarakido"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mbatarakido/GIntro.git",
+    "accountId": "ec4bc0cc-588b-4b4e-9ba8-84f716fd1aa5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3IVyPSW4ZNEs1tmflKrbnXrOb2E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Developer/Java/set_up_sample",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1976dec1-d5da-45a6-82df-fed5b32bae2b" name="Changes" comment="" />
+      <created>1787864005498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787864005498</updated>
+      <workItem from="1787864006646" duration="140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

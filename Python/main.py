@@ -1,5 +1,9 @@
 
-for i in range(1,10):
-    for j in range(1, i+1):
-        print("*"*j)
+list = eval(input("Enter List: "))
+print(list)
+print(type(list))
 
+
+l=tuple(range(0,20,2))
+print(l)
+print(type(l))
